@@ -5,6 +5,7 @@
 
 }
 body{
+    font-family: ProximaNova,sans-serif;
     background-color: #000000;
 }
 nav{
@@ -13,7 +14,7 @@ nav{
     z-index: 10;
     height: 7.1875rem;
     line-height: 7.1875rem;
-    background-color: rgb(255, 255, 255);
+    background-color: hsla(0,0%,100%,0.98);
     margin-top: 0;
 }
 .sub-content-right{
@@ -35,15 +36,18 @@ nav{
     list-style-type: none;
 }
 .sub-content-left > ul > li:hover {
-    background-color: rgb(72, 72, 211);
+    background-color: #006eb5;
     color: white;
+}
+.dp-menue > li > a{
+    font-size: .870rem;
 }
 .dp-menue > .sub-menue > div{
     width:1600px;
 }
 .dp-menue > li:hover .sub-menue{
     display: block;
-    background-color: rgb(255, 255, 255);
+    background-color: hsla(0,0%,100%,0.98);
     height: 39rem;
 }
 .sub-menue{
@@ -51,6 +55,7 @@ nav{
     position: absolute;
     left: calc(5%);
     right: calc(5%);
+    top: 99.5%;
 }
 @media screen and (min-width: 1100px) {
     
@@ -88,7 +93,7 @@ nav .wrapper{
     right: 0%;
     color: #000000;
     max-width: 100%;
-    background-color: white;
+    background-color: hsla(0,0%,100%,0.98);
     height: 90%;
 }
 .side-menu-content{
@@ -109,7 +114,4 @@ nav .wrapper{
 .side-header:hover  .side-menu{
     display: block;
     text-align: left;
-}
-.sub-content-left > ul >li:nth-child(1):hover ~ .hovered-content .content-1{
-    color: red;
 }
